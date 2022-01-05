@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Jeu du Morpion (Tic tac Toe)</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Le celebre jeu du morpion (tic tac toe) en html, css et JS">
+	<meta name="keywords" content="morpion, tic tac toe, css, javascript, js">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="morpion.js"></script>
+</head>
+<body>
+    <div class="container"><div class="o"></div><div class="o"></div>
+    <div class="o"></div>
+    <div class="o"></div>
+    <div class="o z"></div>
+    <div class="o z"></div>
+    <div class="o z"></div>
+    <div class="o z"></div>
+    <div class="o"></div><div class="o"></div><div class="o"></div><div class="o"></div></div>
+  <style>
+    * {
+      margin: 0;
+      background: #5C434C;
+  }
+  .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .o:nth-of-type(even) {
+      background: #F5D6B4;
+  }
+  .o {
+      margin: 10;
+      width: 80;
+      height: 80;
+      background: #F09462;
+      border-top-left-radius: 500px;
+  }
+  .z {
+      background: #F5D6B4;
+  }
+  .z:nth-of-type(even) {
+      background: #F09462;
+  }
+  </style>
+</body>	
+</html>
+
+<!--
+<div class="container"><div class="o"></div><div class="o"></div><div class="o"></div><div class="o"></div><div class="o z"></div><div class="o z"></div><div class="o z"></div><div class="o z"></div><div class="o"></div><div class="o"></div><div class="o"></div><div class="o"></div></div>
+<style>*{margin:0;background:#5C434C}.container{width:100%;height:100%;display:flex;flex-wrap:wrap}.o:nth-of-type(even){background:#F5D6B4}.o{margin:10;width:80;height:80;background:#F09462;border-top-left-radius:500px}.z{background:#F5D6B4;}.z:nth-of-type(even){background:#F09462
+    601.75 (570 chars)   
+-->

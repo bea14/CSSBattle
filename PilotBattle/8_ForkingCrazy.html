@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Jeu du Morpion (Tic tac Toe)</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Le celebre jeu du morpion (tic tac toe) en html, css et JS">
+	<meta name="keywords" content="morpion, tic tac toe, css, javascript, js">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="morpion.js"></script>
+</head>
+<body>
+  <div id="c"></div>
+<div id="m"></div>
+<div class="r one"></div>
+<div class="r two d"></div>
+<div class="r three"></div>
+<div class="r four d"></div>
+<div class="r five"></div>
+<div class="r six d"></div>
+<div class="r seven"></div>
+<style>
+body {
+margin: 0;
+background: #6592cf;
+} 
+.r {
+position: absolute;
+bottom: 130px;
+width: 20px;
+height: 120px;
+background: #060F55;
+border-top-left-radius: 80px;
+border-top-right-radius: 80px;
+}
+.one { left: 130px; }
+.two {left: 150px; }
+.three { left: 170px; }
+.four { left: 190px; }
+.five { left: 210px; }
+.six { left: 230px; }
+.seven { left: 250px; } 
+.d{
+  bottom: 140px;
+  background: #6592CF; 
+  transform: rotate(180deg);
+}
+#c{
+width: 140px;
+height: 97px;
+background: #060f55;
+position: absolute;
+bottom: 50px;
+left: 130px;
+border-bottom-left-radius: 70px;
+border-bottom-right-radius: 70px;
+}
+#m {
+width: 20px;
+height: 55px;
+background: #060f55;
+position: absolute;
+bottom: 0;
+left: 190px;
+}
+</style>
+</body>	
+</html>
+
+<!--
+  <div id="c"></div><div id="m"></div><div class="r one"></div><div class="r two d"></div><div class="r three"></div><div class="r four d"></div><div class="r five"></div><div class="r six d"></div><div class="r seven"></div><style>body{margin:0;background:#6592cf}.r{position:absolute;bottom:130;width:20;height:120;background:#060F55;border-top-left-radius:80px;border-top-right-radius:80px}.one{left:130}.two{left:150}.three{left:170}.four{left:190}.five{left:210}.six{left:230}.seven{left:250}.d{bottom:140;background:#6592CF;transform:rotate(180deg)}#c{width:140;height:97;background:#060f55;position:absolute;bottom:50;left:130;border-bottom-left-radius:70px;border-bottom-right-radius:70px}#m{width:20;height:55;background:#060f55;position:absolute;bottom:0;left:190
+    600.26 (771 chars)
+-->
